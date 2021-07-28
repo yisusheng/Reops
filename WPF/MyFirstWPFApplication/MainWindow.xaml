@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MyFirstWPFApplication"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Rectangle x:Name="rectangle" Width="200" Height="120" Fill="Blue"/>
     </Grid>
 </Window>
