@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "My
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_2_3", "3_2_3\3_2_3.csproj", "{D52DA36B-0B68-4625-AF1A-76E83C265E90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleWithLinearGradientBrush", "RectangleWithLinearGradientBrush\RectangleWithLinearGradientBrush.csproj", "{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D52DA36B-0B68-4625-AF1A-76E83C265E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D52DA36B-0B68-4625-AF1A-76E83C265E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D52DA36B-0B68-4625-AF1A-76E83C265E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
