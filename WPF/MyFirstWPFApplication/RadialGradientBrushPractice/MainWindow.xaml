@@ -1,0 +1,23 @@
+﻿<Window x:Class="RadialGradientBrushPractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadialGradientBrushPractice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Ellipse Width="120" Height="120">
+            <Ellipse.Fill>
+                <RadialGradientBrush GradientOrigin="0.25,0.25" RadiusX="0.75" RadiusY="0.75">
+                    <RadialGradientBrush.GradientStops>
+                        <GradientStop Color="LightBlue" Offset="0.0"/>
+                        <GradientStop Color="Blue" Offset="0.55"/>
+                        <GradientStop Color="DarkBlue" Offset="1.0"/>
+                    </RadialGradientBrush.GradientStops>
+                </RadialGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+
+    </Grid>
+</Window>
