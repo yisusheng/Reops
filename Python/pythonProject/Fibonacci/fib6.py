@@ -1,4 +1,4 @@
-def fib5(n: int) -> int:
+def fib6(n: int) -> int:
     if n == 0:
         return n
     last: int = 0
@@ -9,5 +9,5 @@ def fib5(n: int) -> int:
 
 
 if __name__ == "__main__":
-    print(fib5(5))
-    print(fib5(50))
+    print(fib6(5))
+    print(fib6(50))
