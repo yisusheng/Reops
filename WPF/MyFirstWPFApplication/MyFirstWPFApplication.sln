@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWPFApplication", "MyFirstWPFApplication.csproj", "{CD04F306-37BD-46A2-97A6-D7503D21925A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_2_3", "3_2_3\3_2_3.csproj", "{D52DA36B-0B68-4625-AF1A-76E83C265E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_2_3", "3_2_3\3_2_3.csproj", "{D52DA36B-0B68-4625-AF1A-76E83C265E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleWithLinearGradientBrush", "RectangleWithLinearGradientBrush\RectangleWithLinearGradientBrush.csproj", "{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RectangleWithLinearGradientBrush", "RectangleWithLinearGradientBrush\RectangleWithLinearGradientBrush.csproj", "{8C5A62E1-6114-405C-B2EC-A2B74EF8EC02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadialGradientBrushPractice", "RadialGradientBrushPractice\RadialGradientBrushPractice.csproj", "{6F5E6CC7-299F-4636-9D2E-ECF5D9CBE272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadialGradientBrushPractice", "RadialGradientBrushPractice\RadialGradientBrushPractice.csproj", "{6F5E6CC7-299F-4636-9D2E-ECF5D9CBE272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameAttributePractice", "NameAttributePractice\NameAttributePractice.csproj", "{AEC006AF-9162-48AA-929D-1E940BC70FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameAttributePractice", "NameAttributePractice\NameAttributePractice.csproj", "{AEC006AF-9162-48AA-929D-1E940BC70FB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingKeyAttribute", "UsingKeyAttribute\UsingKeyAttribute.csproj", "{4B926475-DD10-415C-8831-B90CEF8AF261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingKeyAttribute", "UsingKeyAttribute\UsingKeyAttribute.csproj", "{4B926475-DD10-415C-8831-B90CEF8AF261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMarkupShowANewWindow", "UsingMarkupShowANewWindow\UsingMarkupShowANewWindow.csproj", "{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4B926475-DD10-415C-8831-B90CEF8AF261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B926475-DD10-415C-8831-B90CEF8AF261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B926475-DD10-415C-8831-B90CEF8AF261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
