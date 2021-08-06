@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameAttributePractice", "Na
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingKeyAttribute", "UsingKeyAttribute\UsingKeyAttribute.csproj", "{4B926475-DD10-415C-8831-B90CEF8AF261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingMarkupShowANewWindow", "UsingMarkupShowANewWindow\UsingMarkupShowANewWindow.csproj", "{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingMarkupShowANewWindow", "UsingMarkupShowANewWindow\UsingMarkupShowANewWindow.csproj", "{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingxArray", "UsingxArray\UsingxArray.csproj", "{18A0DD16-8CF9-4062-BFA2-08DFB0CFEAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ABB8D01-36AC-49C1-9C17-8F7C3AADCE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18A0DD16-8CF9-4062-BFA2-08DFB0CFEAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18A0DD16-8CF9-4062-BFA2-08DFB0CFEAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18A0DD16-8CF9-4062-BFA2-08DFB0CFEAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18A0DD16-8CF9-4062-BFA2-08DFB0CFEAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
