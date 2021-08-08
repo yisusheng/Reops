@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLayoutDemo", "GridLayou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGridSplitter", "TestGridSplitter\TestGridSplitter.csproj", "{4C653CFD-53AD-4EB5-8CB5-3128671E6C1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDataBinding", "UsingDataBinding\UsingDataBinding.csproj", "{A3FAB660-4837-406F-9DAA-949A0125FD97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4C653CFD-53AD-4EB5-8CB5-3128671E6C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C653CFD-53AD-4EB5-8CB5-3128671E6C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C653CFD-53AD-4EB5-8CB5-3128671E6C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FAB660-4837-406F-9DAA-949A0125FD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FAB660-4837-406F-9DAA-949A0125FD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FAB660-4837-406F-9DAA-949A0125FD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FAB660-4837-406F-9DAA-949A0125FD97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
