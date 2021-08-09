@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBox x:Name="textBox1" Text="{Binding Path=Value, ElementName=slider1}" BorderBrush="Black" Margin="5"/>
-        <Slider x:Name="slider1" Maximum="100" Minimum="0" Margin="5"/>
+        <TextBox x:Name="textBox1" BorderBrush="Black" Margin="5"/>
+        <TextBox x:Name="textBox2" Text="{Binding Text.Length,ElementName=textBox1,Mode=OneWay}" BorderBrush="Black" Margin="5"/>
     </StackPanel>
 </Window>
