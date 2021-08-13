@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CourseManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="登录" Height="600" Width="360"
+        FontFamily="Microsoft YaHei" FontWeight="ExtraLight"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" Background="{x:Null}">
+    <Border Margin="5" Background="White" CornerRadius="10">
+        <Border.Effect>
+            <DropShadowEffect Color="Gray" ShadowDepth="0" BlurRadius="5" Opacity="0.3" Direction="0"/>
+        </Border.Effect>
+    </Border>
 </Window>
