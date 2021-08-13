@@ -9,9 +9,34 @@
         FontFamily="Microsoft YaHei" FontWeight="ExtraLight"
         ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
         WindowStyle="None" AllowsTransparency="True" Background="{x:Null}">
+    <Window.Resources>
+        <ControlTemplate TargetType="Button" x:Key="CloseButtonTemplate">
+            <Border Background="Transparent" Name="ba">
+                <Path Data="M0 0 8 8 M0 8 8 0" Stroke="White" StrokeThickness="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="ba" Property="Background" Value="#22FFFFFF"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    
     <Border Margin="5" Background="White" CornerRadius="10">
         <Border.Effect>
             <DropShadowEffect Color="Gray" ShadowDepth="0" BlurRadius="5" Opacity="0.3" Direction="0"/>
         </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.8*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <Border Background="#007DFA" CornerRadius="10 10 0 0"/>
+            <Button VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" Height="20"
+                    Template="{StaticResource CloseButtonTemplate}"/>
+        </Grid>
     </Border>
 </Window>
+ 
