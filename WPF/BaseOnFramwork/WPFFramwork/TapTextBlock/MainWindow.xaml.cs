@@ -28,12 +28,16 @@ namespace TapTextBlock
             InitializeComponent();
         }
 
-        private void txtblk_MouseDown(object sender, MouseButtonEventArgs e)
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            TextBlock txtblk = sender as TextBlock;
-            rand.NextBytes(rgb);
-            Color clr = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
-            txtblk.Foreground = new SolidColorBrush(clr);
+            if (e.OriginalSource is TextBlock)
+            {
+                TextBlock txtblk = e.OriginalSource as TextBlock;
+                rand.NextBytes(rgb);
+                Color clr = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
+                txtblk.Foreground = new SolidColorBrush(clr);
+            }
         }
     }
 }

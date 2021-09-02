@@ -6,18 +6,16 @@
         xmlns:local="clr-namespace:TapTextBlock"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid MouseDown="Grid_MouseDown">
         <TextBlock
                    Text="Tap Text"
                    FontSize="45"
                    HorizontalAlignment="Right"
-                   VerticalAlignment="Center"
-                   MouseDown="txtblk_MouseDown"/>
+                   VerticalAlignment="Center"/>
         <TextBlock
                    Text="Tap Text"
                    FontSize="45"
                    HorizontalAlignment="Left"
-                   VerticalAlignment="Center"
-                   MouseDown="txtblk_MouseDown"/>
+                   VerticalAlignment="Center"/>
     </Grid>
 </Window>
