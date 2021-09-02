@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBindingMarkupExtension"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapTextBlock", "TapTextBlock\TapTextBlock.csproj", "{F2D859F4-2C8A-4807-909C-C5E5B61BF761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTextBlock1", "ClickTextBlock1\ClickTextBlock1.csproj", "{388C5B15-90DF-4A60-BE75-A09769833FA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{F2D859F4-2C8A-4807-909C-C5E5B61BF761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D859F4-2C8A-4807-909C-C5E5B61BF761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D859F4-2C8A-4807-909C-C5E5B61BF761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388C5B15-90DF-4A60-BE75-A09769833FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388C5B15-90DF-4A60-BE75-A09769833FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388C5B15-90DF-4A60-BE75-A09769833FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388C5B15-90DF-4A60-BE75-A09769833FA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
