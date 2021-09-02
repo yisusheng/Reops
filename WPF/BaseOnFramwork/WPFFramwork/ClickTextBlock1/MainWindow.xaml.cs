@@ -32,13 +32,14 @@ namespace ClickTextBlock1
         {
             TextBlock txtblk = sender as TextBlock;
             txtblk.Foreground = GetRandomBrush();
+            e.Handled = true;
         }
 
-        protected override void OnMouseDown(MouseButtonEventArgs e)
-        {
-            contentGrid.Background = GetRandomBrush();
-            base.OnMouseDown(e);
-        }
+        //protected override void OnMouseDown(MouseButtonEventArgs e)
+        //{
+        //    contentGrid.Background = GetRandomBrush();
+        //    base.OnMouseDown(e);
+        //}
 
         Brush GetRandomBrush()
         {
