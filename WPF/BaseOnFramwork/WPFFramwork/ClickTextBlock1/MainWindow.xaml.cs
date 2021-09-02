@@ -30,13 +30,19 @@ namespace ClickTextBlock1
 
         protected override void OnMouseDown(MouseButtonEventArgs e)
         {
+            rand.NextBytes(rgb);
+            Color clr = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
+            SolidColorBrush brush = new SolidColorBrush(clr);
+
             if (e.OriginalSource is TextBlock)
             {
-                TextBlock txtblk = e.OriginalSource as TextBlock;
-                rand.NextBytes(rgb);
-                Color clr = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
-                txtblk.Foreground = new SolidColorBrush(clr);
+                (e.OriginalSource as TextBlock).Foreground = brush;
             }
+            else if (e.OriginalSource is Grid)
+            {
+                (e.OriginalSource as Grid).Background = brush;
+            }
+
             base.OnMouseDown(e);
         }
     }
