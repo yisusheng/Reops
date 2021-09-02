@@ -28,22 +28,23 @@ namespace ClickTextBlock1
             InitializeComponent();
         }
 
+        void OnTextBlockClicked(object sender,MouseButtonEventArgs e)
+        {
+            TextBlock txtblk = sender as TextBlock;
+            txtblk.Foreground = GetRandomBrush();
+        }
+
         protected override void OnMouseDown(MouseButtonEventArgs e)
+        {
+            contentGrid.Background = GetRandomBrush();
+            base.OnMouseDown(e);
+        }
+
+        Brush GetRandomBrush()
         {
             rand.NextBytes(rgb);
             Color clr = Color.FromArgb(255, rgb[0], rgb[1], rgb[2]);
-            SolidColorBrush brush = new SolidColorBrush(clr);
-
-            if (e.OriginalSource is TextBlock)
-            {
-                (e.OriginalSource as TextBlock).Foreground = brush;
-            }
-            else if (e.OriginalSource is Grid)
-            {
-                (e.OriginalSource as Grid).Background = brush;
-            }
-
-            base.OnMouseDown(e);
+            return new SolidColorBrush(clr);
         }
     }
 }
