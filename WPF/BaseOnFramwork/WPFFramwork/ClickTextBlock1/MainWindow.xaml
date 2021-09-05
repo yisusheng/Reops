@@ -11,11 +11,13 @@
                    Text="Tap Text"
                    FontSize="45"
                    HorizontalAlignment="Right"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   MouseDown="OnTextBlockClicked"/>
         <TextBlock
                    Text="Tap Text"
                    FontSize="45"
                    HorizontalAlignment="Left"
-                   VerticalAlignment="Center"/>
+                   VerticalAlignment="Center"
+                   MouseDown="OnTextBlockClicked"/>
     </Grid>
 </Window>

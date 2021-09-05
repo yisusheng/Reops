@@ -35,11 +35,11 @@ namespace ClickTextBlock1
             e.Handled = true;
         }
 
-        //protected override void OnMouseDown(MouseButtonEventArgs e)
-        //{
-        //    contentGrid.Background = GetRandomBrush();
-        //    base.OnMouseDown(e);
-        //}
+        protected override void OnMouseDown(MouseButtonEventArgs e)
+        {
+            contentGrid.Background = GetRandomBrush();
+            base.OnMouseDown(e);
+        }
 
         Brush GetRandomBrush()
         {
