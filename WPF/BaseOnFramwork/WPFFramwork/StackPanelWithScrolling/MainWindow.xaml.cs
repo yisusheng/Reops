@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -24,13 +25,19 @@ namespace StackPanelWithScrolling
         {
             InitializeComponent();
 
-            Type properties = typeof(Colors).GetType().DeclaringType;
+            MemberInfo[] members = typeof(Colors).GetFields();
+            //Type properties = typeof(Colors).GetType().DeclaringType;
 
-            TextBlock textBlock= new TextBlock();
-            textBlock.Text = String.Format("{0} \x2014",
-                properties.ToString());
+            foreach (MemberInfo member in members)
+            {
+                TextBlock textBlock = new TextBlock();
+                textBlock.Text = String.Format("{0} \x2014",
+                    member.ToString());
+                stackPanel.Children.Add(textBlock);
+            }
 
-            stackPanel.Children.Add(textBlock);
+
+            
         }
     }
 }
