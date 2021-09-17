@@ -25,14 +25,15 @@ namespace StackPanelWithScrolling
         {
             InitializeComponent();
 
-            MemberInfo[] members = typeof(Colors).GetFields();
+            MemberInfo[] members = typeof(Colors).GetProperties();
             //Type properties = typeof(Colors).GetType().DeclaringType;
 
             foreach (MemberInfo member in members)
             {
+                //Color color = (Color)member.GetValue(null);
                 TextBlock textBlock = new TextBlock();
                 textBlock.Text = String.Format("{0} \x2014",
-                    member.ToString());
+                    member.Name.ToString());
                 stackPanel.Children.Add(textBlock);
             }
 
