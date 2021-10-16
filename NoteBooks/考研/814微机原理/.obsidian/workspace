@@ -1,0 +1,119 @@
+{
+  "main": {
+    "id": "a2da9c45db9d79aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d40fe3a43d0c740",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "考纲/考纲原文.md",
+            "mode": "source"
+          }
+        },
+        "group": "6432ff32ac7688a1"
+      },
+      {
+        "id": "a872f17584c38780",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "考纲/考纲原文.md",
+            "mode": "preview"
+          }
+        },
+        "group": "6432ff32ac7688a1"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07088e9b5b35e6dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "2169889a79d50139",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76e2d4364f32f477",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "daad92bac7fab9b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9b943fe979e40da1",
+    "type": "split",
+    "children": [
+      {
+        "id": "387b98ceb0771b39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab9789c04ceba5cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "考纲/考纲原文.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "df03607fadf4dd83",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "考纲/考纲原文.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "a872f17584c38780",
+  "lastOpenFiles": [
+    "考纲/考纲原文.md",
+    "考纲/未命名.md",
+    "考纲/01.嵌入式系统硬件/未命名.md",
+    "未命名.md"
+  ]
+}

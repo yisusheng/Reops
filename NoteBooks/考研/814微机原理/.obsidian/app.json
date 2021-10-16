@@ -1,0 +1,12 @@
+{
+  "foldHeading": true,
+  "foldIndent": true,
+  "attachmentFolderPath": "assets",
+  "useTab": false,
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
+}
