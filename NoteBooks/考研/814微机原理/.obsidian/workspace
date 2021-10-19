@@ -6,10 +6,11 @@
       {
         "id": "3d40fe3a43d0c740",
         "type": "leaf",
+        "dimension": 49.59349593495935,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "考纲/考纲原文.md",
+            "file": "测试.md",
             "mode": "source"
           }
         },
@@ -18,10 +19,11 @@
       {
         "id": "a872f17584c38780",
         "type": "leaf",
+        "dimension": 50.40650406504065,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "考纲/考纲原文.md",
+            "file": "测试.md",
             "mode": "preview"
           }
         },
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考纲/考纲原文.md",
+                "file": "测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考纲/考纲原文.md"
+                "file": "测试.md"
               }
             }
           }
@@ -109,11 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a872f17584c38780",
+  "active": "3d40fe3a43d0c740",
   "lastOpenFiles": [
+    "测试.md",
+    "思想.md",
+    "未命名.md",
     "考纲/考纲原文.md",
-    "考纲/未命名.md",
-    "考纲/01.嵌入式系统硬件/未命名.md",
-    "未命名.md"
+    "考纲/01.嵌入式系统硬件/存储器系统.md",
+    "考纲/01.嵌入式系统硬件/并行总线设备协议.md",
+    "考纲/01.嵌入式系统硬件/串行总线通信协议.md",
+    "考纲/01.嵌入式系统硬件/存储器结构.md",
+    "考纲/01.嵌入式系统硬件/存储器映射.md",
+    "考纲/01.嵌入式系统硬件/未命名.md"
   ]
 }
