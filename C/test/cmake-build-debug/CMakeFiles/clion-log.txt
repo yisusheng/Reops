@@ -1,11 +1,23 @@
-D:\ProgramFiles\JetBrains\Toolbox\apps\CLion\ch-0\212.5080.54\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" E:\Users\WXY\MyProjects\Reops\C\test
--- The C compiler identification is MSVC 19.30.30423.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - failed
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.30.30423/bin/Hostx86/x86/cl.exe
--- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.30.30423/bin/Hostx86/x86/cl.exe - works
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: E:/Users/WXY/MyProjects/Reops/C/test/cmake-build-debug
+D:\ProgramFiles\JetBrains\Toolbox\apps\CLion\ch-0\212.5457.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" E:\Users\WXY\MyProjects\Reops\C\test
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.30.30423/bin/Hostx86/x86/cl.exe
+
+  is not a full path to an existing compiler tool.
+
+  To use the NMake generator with Visual C++, cmake must be run from a shell
+  that can use the compiler cl from the command line.  This environment is
+  unable to invoke the cl compiler.  To fix this problem, run cmake from the
+  Visual Studio Command Prompt (vcvarsall.bat).
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "E:/Users/WXY/MyProjects/Reops/C/test/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "E:/Users/WXY/MyProjects/Reops/C/test/cmake-build-debug/CMakeFiles/CMakeError.log".
+Cannot resolve compiler path 'C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.30.30423/bin/Hostx86/x86/cl.exe'
+Cannot read E:\Users\WXY\MyProjects\Reops\C\test\cmake-build-debug\CMakeFiles\3.20.2\CMakeCCompiler.cmake
