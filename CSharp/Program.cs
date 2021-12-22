@@ -7,7 +7,7 @@ namespace Simple
         static void Main(string[] args)
         {
             Console.WriteLine("fkfjwkajfkja");
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
