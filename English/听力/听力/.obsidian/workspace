@@ -1,0 +1,93 @@
+{
+  "main": {
+    "id": "5e2d002b35cbe148",
+    "type": "split",
+    "children": [
+      {
+        "id": "b56fc77e5c78d55c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Gettysburg Address.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9427bb1d85259ee9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c85a3e261c6a586",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f68574ca633b8f6c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "eb4000932020cf8e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4930982313da5276",
+    "type": "split",
+    "children": [
+      {
+        "id": "b95055b7e42c9688",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c588d15a4007c43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Gettysburg Address.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b56fc77e5c78d55c",
+  "lastOpenFiles": [
+    "Gettysburg Address.md"
+  ]
+}
