@@ -11,6 +11,12 @@ namespace SimpleClassExample
         public string petName;
         public int currSpeed;
 
+        public Car()
+        {
+            petName = "Chunk";
+            currSpeed = 10;
+        }
+
         public void PrintState()
         {
             Console.WriteLine("{0} is going {1} MPH.", petName, currSpeed);
@@ -22,3 +28,4 @@ namespace SimpleClassExample
         }
     }
 }
+ 
