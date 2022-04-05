@@ -1,0 +1,24 @@
+﻿<!-- Window1.xaml-->
+<Window
+    x:Class="Project1.Window1"
+    xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Hello,WPF"
+    Width="200"
+    Height="200"
+    >
+
+    <DockPanel x:Name="dockPanel">
+        <TextBlock DockPanel.Dock="Top">
+            <TextBlock VerticalAlignment="Center">Name:</TextBlock>
+            <TextBox Text="{Binding Path=Name}"/>
+            <TextBlock VerticalAlignment="Center">Nick:</TextBlock>
+            <TextBox Text="{Binding Path=Nick}"/>
+        </TextBlock>
+        <Button DockPanel.Dock="Bottom" x:Name="addButton">Add</Button>
+        <ListBox
+            ItemsSource="{Binding}"
+            IsSynchronizedWithCurrentItem="True"/>
+    </DockPanel>
+
+</Window>
