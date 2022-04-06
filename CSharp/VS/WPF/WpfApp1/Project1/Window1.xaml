@@ -18,7 +18,15 @@
         <Button DockPanel.Dock="Bottom" x:Name="addButton">Add</Button>
         <ListBox
             ItemsSource="{Binding}"
-            IsSynchronizedWithCurrentItem="True"/>
+            IsSynchronizedWithCurrentItem="True">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock Text="{Binding Path=Name}"/>
+                        <TextBlock Text="{Binding Path=Nick}"/>
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </DockPanel>
-
 </Window>
