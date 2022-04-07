@@ -11,7 +11,7 @@ namespace App
             Application app=new Application();
             Window1 window=new Window1();
             window.Show();
-            app.Run();
+            Application.Current.Run();
         }
     }
 }
